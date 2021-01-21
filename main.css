@@ -1,0 +1,72 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #eeeeee;
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+#title{
+width: 100%;
+height: auto;
+margin:15px;
+
+}
+#title h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+#title p{
+    text-align: center;
+    margin:10px;
+
+}
+#main {
+    display:inline-block;
+    width:100%;
+    height: 100%;
+}
+#img-div{
+    display:grid;
+    justify-items: center;
+    width:auto;
+    height:auto;
+    background-color: white;
+}
+#image {
+    max-width:700px;
+    justify-content: center;
+    height: auto;
+    margin:20px;
+}
+#img-caption{
+margin:5px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 16px;
+}
+#tribute-info{
+    margin-top:20px;
+    width: 100%;
+    display:inline-block;
+    text-align: center;
+}
+#tribute-info p{
+margin:10px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#tribute-info ol li{
+margin:5px;
+font-size: 14px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display:block;
+}
+#tribute-link{
+    display:flex;
+    justify-content: center;
+    margin:15px;
+}
